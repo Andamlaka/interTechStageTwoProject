@@ -6,10 +6,13 @@ export default {
   ],
   theme: {
     extend: {
-
+      fontFamily: {
+        'alfa-slab': ['"Alfa Slab One"', 'serif'], 
+        poppins: ['Poppins', 'sans-serif'],
+      },
       screens: {
         'sm': { max: '480px' }, // For screens 480px and below
-        'lg': { min: '481px' }, // For screens 481px and above (Default or larger screens)
+         // For screens 481px and above (Default or larger screens)
       },
     },
   },

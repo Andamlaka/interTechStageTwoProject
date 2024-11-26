@@ -51,10 +51,11 @@ const MobileMenu = () => {
       ]
      
   return (
-    
+    <div className="fixed hidden  bg-white w-full h-[70.5px] top-0
+    z-50">
     <div className="relative flex  lg:hidden  w-[382px]  justify-between
     gap-[24px] right-6 
-    items-center h-[32px] left-[24px]  mt-[40px]  bg-white "
+    items-center h-[32px] left-[24px]  mt-[20px]  bg-white "
 >
    {/* hamburger menu */}
    <div className="relative w-[24px] h-[24px]  
@@ -104,7 +105,7 @@ const MobileMenu = () => {
          border-b  border-t border-gray-400 mb-4
          items-center w-[180px] h-[40px] left-0 top-[5px] 
           group ">
-       <h1 className=" relative w-[120px] h-6 font-poppins text-[16px] leading-[24px] 
+       <h1 className=" relative w-[120px] h-6 font-poppins text-[14px] leading-[24px] 
        font-semibold text-[#1E1E1E] text-left  cursor-pointer">
          Register/Sign in
        </h1>
@@ -340,6 +341,7 @@ stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </div>
  </div>
+  </div>
   </div>
   )
 };

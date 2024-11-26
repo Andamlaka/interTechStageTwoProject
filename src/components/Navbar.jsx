@@ -58,9 +58,12 @@ function Navbar() {
   ]
  
   return (
+    <div className="fixed bg-white w-full h-[70.5px] top-0
+    z-50">
     <header
-    className="fixed  flex items-center h-[46.5px] 
-      gap-[10px] justify-between top-[24px] left-[24px] bg-white z-50  overflow-visible"
+    className="fixed w-full flex h-[46.5px] items-center 
+      gap-[10px] top-[24px]  left-[24px] bg-white  right-[24px] 
+      "
   >
     
 
@@ -75,7 +78,7 @@ function Navbar() {
         </div>
 
         <div className="relative flex justify-center items-center w-[140px] h-[24px] gap-0 group">
-          <h1 className="w-[120px] h-6 font-poppins text-[16px] leading-[24px] 
+          <h1 className="w-[120px] h-6 font-poppins text-[14px] leading-[24px] 
           font-semibold text-[#1E1E1E] text-left underline  cursor-pointer">
             Register/Sign in
           </h1>
@@ -367,6 +370,7 @@ stroke-linecap="round" stroke-linejoin="round"/>
  </div>
   
 </header>
+</div>
   );
 }
 
